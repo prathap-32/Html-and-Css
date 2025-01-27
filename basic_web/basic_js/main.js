@@ -1,0 +1,1 @@
+let age = window.prompt("How are you old ?")

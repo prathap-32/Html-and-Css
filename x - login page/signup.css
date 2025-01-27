@@ -6,7 +6,7 @@
    
 }
 h2{
-    margin-top: 40%;
+    margin-top: 10%;
     margin-left: 10px;
 }
 
@@ -32,13 +32,15 @@ button{
     
 }
 .l1{
-    width: 48%;
+    width: 40%;
     height: 5%;
     border-bottom:1px solid white;
    display: inline-block;
+   margin-top:1.5%;
 }
 .l2{
-    width: 48%;
+    width: 40%;
+    margin-bottom: 1.5%;
     border-bottom:1px solid white;
     display: inline-block;
 }
@@ -47,11 +49,13 @@ button{
     margin-top: 10%;
     display: flex;
     flex-direction: row;
-    
-    justify-content: center;}
+    justify-content: center;
+}
 h5{
-    display:inline;
-    margin-bottom:50px;}
+    display:inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
 .new{
     display: block;
     justify-content: center;

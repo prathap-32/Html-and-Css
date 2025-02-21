@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#calc {
+  background-color: black;
+  width: 400px;
+  height: 580px;
+  border-radius: 3%;
+}
+
+button {
+  width: 15.778%;
+  color: rgb(58, 57, 57);
+  padding: 5%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(27, 26, 26);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+#r {
+  display: flex;
+  justify-content: space-around;
+}
+.r1 button {
+  color: rgb(227, 111, 10);
+}
+.letter {
+  color: rgb(227, 111, 10);
+}
+#btn {
+  padding: 5%;
+  display: flex;
+  height: 62.5%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.input {
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 84%;
+  border: 1px white solid;
+  background-color: black;
+  cursor: text;
+  border-radius: 6px;
+  color: white;
+  padding: 3%;
+  text-align: end;
+  font-size: 40px;
+}
+#res {
+  background-color: rgb(227, 111, 10);
+}
+p {
+  color: rgb(227, 111, 10);
+}
+button:active{
+    background-color: rgba(214, 214, 214, 0.291);
+    /* color: aqua; */
+}
+.symbol{
+  font-size: 21px;
+}
+.del{
+  margin-top: 1px;
+}
+.del_parent{
+  padding: 0px;
+}

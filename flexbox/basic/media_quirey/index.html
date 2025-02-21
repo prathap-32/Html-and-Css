@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            display:flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .one{
+            background-color: black;
+            flex-basis: 20%;
+            height: 100px;
+            margin: 5px;
+        }
+        @media screen and (max-width:800px) {
+            .one{
+                flex-basis: 40%;
+            }
+        }
+        @media screen and (max-width:600px) {
+            .one{
+                flex-basis: 100%;
+            }
+        }
+    </style>
+    <div>
+        <div class="container">
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+        </div>
+    </div>
+</body>
+</html>

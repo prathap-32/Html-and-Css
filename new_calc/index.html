@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calc">
+        <div class="input">
+            <input type="number" id="input_num">
+        </div>
+        <div id="btn">
+            <div id="r" class="r1">
+                <button type="reset">AC</button>
+                <button class="del_parent">
+                    <img class="del" src="delete copy.png" width="23px" height="21px">
+                </button>
+                <button>%</button>
+                <button>/</button>
+            </div>
+            <div id="r">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button><p>X</p></button>
+            </div>
+            <div id="r">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button><p class="symbol">-</p></button>
+            </div>
+            <div id="r">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button><p class="symbol">+</p></button>
+            </div>
+            <div id="r" class="r5">
+                <button class="letter">R</button>
+                <button>0</button>
+                <button>.</button>
+                <button id="res" type="submit" onclick="results()">=</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="main.js">
+        
+    </script>
+</body>
+</html>
